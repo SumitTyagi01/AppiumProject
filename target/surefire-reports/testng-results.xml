@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-02T13:03:54 IST" name="All Test Suite" finished-at="2023-08-02T13:05:43 IST" duration-ms="109060">
+    <groups>
+      <group name="Smoke">
+        <method signature="eCommerce_tc4_Hybrid.FillForm(java.util.HashMap)[pri:0, instance:org.Framework.pageObjects.android.eCommerce_tc4_Hybrid@7a35b0f5]" name="FillForm" class="org.Framework.pageObjects.android.eCommerce_tc4_Hybrid"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-08-02T13:03:54 IST" name="End To End Framework Test" finished-at="2023-08-02T13:05:43 IST" duration-ms="108422">
+      <class name="org.Framework.pageObjects.android.eCommerce_tc4_Hybrid">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.Framework.pageObjects.android.eCommerce_tc4_Hybrid@7a35b0f5]" started-at="2023-08-02T13:03:55 IST" name="ConfigureAppium" finished-at="2023-08-02T13:04:07 IST" duration-ms="12693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="FillForm(java.util.HashMap)[pri:0, instance:org.Framework.pageObjects.android.eCommerce_tc4_Hybrid@7a35b0f5]" started-at="2023-08-02T13:04:07 IST" name="FillForm" data-provider="getData" finished-at="2023-08-02T13:04:42 IST" duration-ms="34270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=xyz, country=Argentina, gender=female}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.Framework.pageObjects.android.eCommerce_tc4_Hybrid@7a35b0f5]" started-at="2023-08-02T13:04:42 IST" name="tearDown" finished-at="2023-08-02T13:04:43 IST" duration-ms="881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.Framework.pageObjects.android.eCommerce_tc4_Hybrid@7a35b0f5]" started-at="2023-08-02T13:04:43 IST" name="ConfigureAppium" finished-at="2023-08-02T13:04:53 IST" duration-ms="10730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="FillForm(java.util.HashMap)[pri:0, instance:org.Framework.pageObjects.android.eCommerce_tc4_Hybrid@7a35b0f5]" started-at="2023-08-02T13:04:53 IST" name="FillForm" data-provider="getData" finished-at="2023-08-02T13:05:42 IST" duration-ms="48269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=abc, country=Argentina, gender=male}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.Framework.pageObjects.android.eCommerce_tc4_Hybrid@7a35b0f5]" started-at="2023-08-02T13:05:42 IST" name="tearDown" finished-at="2023-08-02T13:05:43 IST" duration-ms="1231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.Framework.pageObjects.android.eCommerce_tc4_Hybrid -->
+    </test> <!-- End To End Framework Test -->
+    <test started-at="2023-08-02T13:05:43 IST" name="Error Validations Test" finished-at="2023-08-02T13:05:43 IST" duration-ms="1">
+    </test> <!-- Error Validations Test -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

@@ -1,0 +1,16 @@
+[
+
+  {
+    "name":"xyz",
+    "gender":"female",
+    "country":"Argentina"
+
+  },
+  {
+    "name":"abc",
+    "gender":"male",
+    "country":"Argentina"
+
+  }
+
+]
